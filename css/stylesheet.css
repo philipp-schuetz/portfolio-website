@@ -123,7 +123,7 @@ a#str-url:hover {
 footer {
 	height: 64px;
 	background-color: var(--light-gray);
-	border-radius: 32px;
+	border-radius: 16px;
 	border: 2px solid var(--border-gray);
 
 	display: flex;
@@ -136,6 +136,7 @@ footer {
 	margin-bottom: 8px;
 
 	color: var(--blue);
+	font-size: 16px;
 }
 
 footer > div > a {
@@ -145,3 +146,45 @@ footer > div > a {
 footer > div > a:hover {
 	text-decoration: underline;
 }
+footer > #mail > #mail-desktop{
+	display: inline;
+}
+footer > #mail > #mail-mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	#content-wrapper {
+		grid-template-columns: 8px auto 8px;
+	}
+
+	#codebox {
+		font-size: 18px;
+	}
+
+	footer {
+		height: 32px;
+		border-radius: 8px;
+		font-size: 10px;
+	}
+	footer > #mail > #mail-desktop{
+		display: none;
+	}
+	footer > #mail > #mail-mobile {
+		display: inline;
+	}
+
+	/* different indentation levels (CodeBoxLevel)*/
+	.cbl1 {
+		text-indent: 1em;
+	}
+
+	.cbl2 {
+		text-indent: 2em;
+	}
+
+	.cbl3 {
+		text-indent: 3em;
+	}
+
+} 
