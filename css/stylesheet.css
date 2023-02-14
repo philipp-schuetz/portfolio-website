@@ -1,5 +1,21 @@
 @import './reset.css';
 
+@font-face {
+	font-family: 'Cascadia Code';
+	src: url('../fonts/cascadia/CascadiaCode-Regular.otf') format('opentype'),
+		 url('../fonts/cascadia/CascadiaCode.ttf') format('truetype'),
+		 url('../fonts/cascadia/CascadiaCode.woff2') format('woff2');
+
+	font-family: 'Fira Code';
+	src: url('../fonts/fira/FiraCode-Regular.ttf') format('truetype'),
+		 url('../fonts/fira/FiraCode-Regular.woff') format('woff'),
+		 url('../fonts/fira/FiraCode-Regular.woff2') format('woff2');
+}
+
+* {
+	font-family: 'Cascadia Code', 'Fira Code', 'Times New Roman', Times, serif;
+}
+
 /* colors */
 :root {
 	--light-gray: rgb(27, 31, 34);
@@ -65,7 +81,7 @@ nav > a:hover {
 	border-radius: 32px;
 
 	padding: 16px;
-	font-size: 24px;
+	font-size: 20px;
 
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -136,7 +152,7 @@ footer {
 	margin-bottom: 8px;
 
 	color: var(--blue);
-	font-size: 16px;
+	font-size: 14px;
 }
 
 footer > div > a {
