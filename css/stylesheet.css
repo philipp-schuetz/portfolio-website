@@ -162,12 +162,6 @@ footer > div > a {
 footer > div > a:hover {
 	text-decoration: underline;
 }
-footer > #mail > #mail-desktop{
-	display: inline;
-}
-footer > #mail > #mail-mobile {
-	display: none;
-}
 
 @media only screen and (max-width: 600px) {
 	#content-wrapper {
@@ -184,12 +178,6 @@ footer > #mail > #mail-mobile {
 		font-size: 8px;
 		padding-left: 16px;
 		padding-right: 16px;
-	}
-	footer > #mail > #mail-desktop{
-		display: none;
-	}
-	footer > #mail > #mail-mobile {
-		display: inline;
 	}
 
 	/* different indentation levels (CodeBoxLevel)*/
