@@ -127,6 +127,7 @@ footer {
 
 #github-icon {
 	height: 32px;
+	/* made with https://codepen.io/sosuke/pen/Pjoqqp */
 	filter: invert(62%) sepia(8%) saturate(4957%) hue-rotate(188deg) brightness(103%) contrast(101%);
 }
 
