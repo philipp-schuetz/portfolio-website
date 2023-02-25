@@ -34,36 +34,6 @@ body {
 	overflow-x: hidden;
 }
 
-nav {
-	height: 64px;
-
-	background-color: var(--light-gray);
-	border-radius: 32px;
-	border: 2px solid var(--border-gray);
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-	margin-top: 8px;
-	padding-left: 32px;
-	padding-right: 32px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
-nav > a {
-	color: var(--blue);
-	text-decoration: none;
-	font-size: 24px;
-	padding: 8px;
-	height: 100%;
-}
-
-nav > a:hover {
-	border-bottom: 2px solid var(--blue);
-}
-
 #content-wrapper {
 	display: grid;
 	grid-template-columns: 25vw 50vw 25vw;
