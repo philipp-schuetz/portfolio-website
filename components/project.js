@@ -30,4 +30,4 @@ class Project extends HTMLElement {
 	}
 }
 
-window.customElements.define('component-project', Project);
+window.customElements.define('c-project', Project);
