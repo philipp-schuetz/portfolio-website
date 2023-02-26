@@ -156,6 +156,10 @@ footer > div > a:hover {
 		padding-right: 16px;
 	}
 
+	#github-icon {
+		height: 16px;
+	}
+
 	/* different indentation levels (CodeBoxLevel)*/
 	.cbl1 {
 		text-indent: 1em;
